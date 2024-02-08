@@ -3,8 +3,8 @@ from typing_extensions import Annotated
 import typer
 import uvicorn
 
-from autogenstudio.version import VERSION
-from autogenstudio.utils.dbutils import DBManager
+from .version import VERSION
+from .utils.dbutils import DBManager
 
 app = typer.Typer()
 
